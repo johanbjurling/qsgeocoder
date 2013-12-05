@@ -1,0 +1,21 @@
+{
+  "author": "Johan Bjurling",
+  "name": "qsgeocoder",
+  "description": "Converts an array of adresses to pairs of coordinates using Google's geocoding API. This package is dependent on wyattdanger's geocoder.",
+  "version": "0.1.3",
+  "repository": {
+    "url": "https://github.com/johanbjurling/qsgeocoder.git"
+  },
+  "main": "./lib/qsgeocoder",
+  "keywords": [
+    "geocode",
+    "google",
+    "address"
+  ],
+  "dependencies": {
+    "geocoder": "0.1.0"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
